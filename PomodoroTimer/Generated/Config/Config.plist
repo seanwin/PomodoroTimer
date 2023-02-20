@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>config</key>
+	<string>develop</string>
+	<key>backendUrl</key>
+	<string>www.testbackendurl.com/dev</string>
+	<key>testFlags</key>
+	<dict>
+		<key>resetData</key>
+		<true/>
+		<key>noSplash</key>
+		<false/>
+		<key>applyTestData</key>
+		<true/>
+	</dict>
+</dict>
+</plist>

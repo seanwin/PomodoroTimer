@@ -1,0 +1,13 @@
+//
+//  Staging.xcconfig
+//  PomodoroTimer
+//
+//  Created by An Nguyen on 2023/02/19.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+XCC_BUNDLE_IDENTIFIER = com.elixirappscompany.PomodoroTimerStaging
+XCC_BUNDLE_NAME = Staging PomodoroTimer
+XCC_CONFIG_PATH = Staging/Config.plist
