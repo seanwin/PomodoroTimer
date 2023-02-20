@@ -15,6 +15,13 @@ struct PomodoroTimerApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .onAppear(perform: validateConfig)
         }
+    }
+    
+    func validateConfig() {
+        /// Because `Config.plist` is being loaded at runtime, an invalid file will cause a crash
+        /// therefore we want this crash to occur as soon as possible by running it at the start of the app
+        _ = config.environment
     }
 }

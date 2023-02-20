@@ -1,0 +1,13 @@
+//
+//  Development.xcconfig
+//  PomodoroTimer
+//
+//  Created by An Nguyen on 2023/02/19.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+XCC_BUNDLE_IDENTIFIER = com.elixirappscompany.PomodoroTimer
+XCC_BUNDLE_NAME = Dev PomodoroTimer
+XCC_CONFIG_PATH = Develop/Config.plist
